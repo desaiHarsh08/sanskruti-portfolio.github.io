@@ -35,7 +35,7 @@ export default function Home() {
                 <img src={homeImg} className='border-2 border-purple-400 rounded-full h-20 sm:h-36 ' alt='myImage' />
             </div>
             <div className='part-2 px-4 w-[100%] text-center md:text-left md:w-[60%]  '>
-                <span className='text-lg sm:text-xl font-medium block'>Hi There 😉</span>
+                <span className='text-lg sm:text-xl font-semibold block '>Hi There 😉</span>
                 <div className='flex flex-col md:flex-row space-x-2'>
                     <span className='text-xl sm:text-2xl font-semibold md:my-1 '>I'm</span>
                     <h1 className='text-xl text-red-500 sm:text-2xl font-semibold md:my-1'><span className='text-purple-500' ref={el}></span></h1>
